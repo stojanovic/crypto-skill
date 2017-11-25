@@ -1,0 +1,5 @@
+COIN_TYPES
+
+Bitcoin
+Litecoin
+Ethereum

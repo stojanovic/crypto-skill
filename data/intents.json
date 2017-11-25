@@ -1,0 +1,22 @@
+{
+    "intents": [
+        {
+            "intent": "GetPrice",
+            "slots": [
+                { "name": "Coin", "type": "COIN_TYPES" }
+            ]
+        }, {
+            "intent": "HistoricalPrice",
+            "slots": [
+                { "name": "Coin", "type": "COIN_TYPES" },
+                { "name": "Date", "type": "AMAZON.DATE"}
+            ]
+        }, {
+            "intent": "AmountInfo",
+            "slots": [
+                { "name": "Coin", "type": "COIN_TYPES" },
+                { "name": "Amount", "type": "AMAZON.NUMBER" }
+            ]
+        }
+    ]
+}

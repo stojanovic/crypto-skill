@@ -1,0 +1,16 @@
+GetPrice How much is {Coin}
+GetPrice What is the price for {Coin}
+GetPrice Current {Coin} value
+GetPrice {Coin} value
+
+HistoricalPrice How much was {Coin} at {Date}
+HistoricalPrice How much was {Coin} {Date}
+HistoricalPrice Whar was the price of {Coin} {Date}
+HistoricalPrice {Coin} price on {Date}
+HistoricalPrice {Coin} price {Date}
+HistoricalPrice {Coin} value at {Date}
+HistoricalPrice {Coin} value {Date}
+
+AmountInfo How many {Coin} can I get for {Amount} euros
+AmountInfo Amount of {Coin} for {Amount} euros
+AmountInfo Number of {Coin} for {Amount} euros

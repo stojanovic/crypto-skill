@@ -1,0 +1,24 @@
+{
+  "name": "crypto-alexa-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "claudia create --region eu-west-1 --handler skill.handler --version skill",
+    "update": "claudia update --version skill",
+    "allowTrigger": "claudia allow-alexa-skill-trigger --version skill",
+    "logs": "aws logs filter-log-events --log-group-name=/aws/lambda/crypto-alexa-skill --query events --output text --region eu-west-1"
+  },
+  "keywords": [],
+  "author": "Slobodan Stojanović <slobodan@cloudhorizon.com> (http://slobodan.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "claudia": "^2.14.2"
+  },
+  "dependencies": {
+    "alexa-message-builder": "^1.2.0",
+    "alexa-skill-kit": "^1.0.0",
+    "cryptocompare": "^0.2.0",
+    "node-fetch": "^1.7.3"
+  }
+}
